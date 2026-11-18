@@ -1,0 +1,13 @@
+# Generated application logs
+logs/*
+!logs/.gitkeep
+
+# Generated health reports (may contain machine-specific diagnostic data)
+reports/*
+!reports/.gitkeep
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,40 @@
+{
+  "thresholds": {
+    "cpuWarning": 80,
+    "cpuCritical": 95,
+    "memoryWarning": 85,
+    "memoryCritical": 95,
+    "diskFreeWarning": 15,
+    "diskFreeCritical": 5
+  },
+  "eventLog": {
+    "lookbackHours": 24,
+    "maxEventsPerLog": 500,
+    "levels": [
+      "Critical",
+      "Error",
+      "Warning"
+    ]
+  },
+  "services": {
+    "monitorList": [
+      "Dhcp",
+      "Dnscache",
+      "EventLog",
+      "Spooler",
+      "Winmgmt",
+      "wuauserv"
+    ]
+  },
+  "reporting": {
+    "outputDirectory": "reports",
+    "formats": [
+      "html",
+      "json",
+      "csv"
+    ]
+  },
+  "windowsUpdate": {
+    "historyLimit": 20
+  }
+}
